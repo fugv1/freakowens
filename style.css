@@ -1,0 +1,448 @@
+* {
+  transition-duration: 500ms;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.latto-black a {
+  text-decoration: none;
+}
+
+.lato-bold a {
+  text-decoration: none;
+  color: black
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+.lato-regular a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: rgb(195, 195, 195);
+  text-align: center;
+}
+
+.navbar li {
+  float: left;
+  text-align: center;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  /* Makes the cards line up in a row */
+  justify-content: center;
+  /* Centers the cards horizontally */
+  gap: 3px;
+  /* Adds space between cards */
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next line if needed */
+}
+
+.card {
+  background-color: rgb(225, 225, 225);
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex: 10px 10px 1px;
+}
+
+.img_helluva {
+  height: 40rem;
+  width: 100%;
+  background: url(pic_helluva_main.png);
+  background-size: cover;
+}
+
+.img1 {
+  height: 255px;
+  width: 100%;
+  background: url(clothes_helluva_longsleeve.png);
+  background-size: cover
+}
+
+.img2 {
+  height: 255px;
+  width: 100%;
+  background: url(clothes_helluva_hoodie.png);
+  background-size: cover
+}
+
+.img3 {
+  height: 255px;
+  width: 100%;
+  background: url(clothes_helluva_mask.png);
+  background-size: cover
+}
+
+.img4 {
+  height: 255px;
+  width: 100%;
+  background: url(clothes_helluva_cap.png);
+  background-size: cover
+}
+
+
+.card a {
+  padding: 30px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 15px;
+  color: black;
+}
+
+.card:hover {
+  background-color: rgb(195, 195, 195);
+}
+
+.move {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about_card {
+  background-color: rgb(225, 225, 225);
+  border-radius: 10px;
+}
+
+.slider {
+  display: flex;
+  /* Makes the cards line up in a row */
+  justify-content: center;
+  /* Centers the cards horizontally */
+  gap: 3px;
+  /* Adds space between cards */
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next line if needed */
+}
+
+.slider img {
+  width: 500px;
+  box-sizing: border-box;
+  flex: 10px 10px 1px;
+}
+
+.filler {
+  width: 1000;
+  height: 700px;
+  background: url(fun.png);
+  padding: 10px;
+  margin: 10px;
+  background-size: cover;
+}
+
+.lowbar_about {
+  background-color: rgb(40, 40, 40);
+  color: rgb(148, 148, 148);
+  padding: 10px;
+  text-align: end;
+}
+
+.lowbar {
+  background-color: rgb(40, 40, 40);
+  color: rgb(148, 148, 148);
+  padding: 10px;
+}
+
+.buy_img {
+  display: flex;
+  /* Makes the cards line up in a row */
+  justify-content: left;
+  /* Centers the cards horizontally */
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next line if needed */
+}
+
+.buy_img img {
+  background-color: rgb(225, 225, 225);
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex: 10px 10px 1px;
+  height: 500px;
+  width: 700px;
+  margin: 1%
+}
+
+.interface {
+  display: flex;
+  /* Makes the cards line up in a row */
+  justify-content: left;
+  /* Centers the cards horizontally */
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next line if needed */
+}
+
+.name {
+  width: 300px;
+  border-radius: 10px;
+  flex: 10px 10px 1px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ss25text a {
+  color: rgb(157, 157, 157);
+}
+
+.ss25navbar ul {
+  list-style: none;
+  background-color: rgb(40, 40, 40);
+  padding: 5px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.ss25navbar a {
+  color: rgb(157, 157, 157);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.ss25navbar a:hover {
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+}
+
+.ss25navbar li {
+  float: left;
+  text-align: center;
+  margin: auto;
+}
+
+.ss25 {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  /* Makes the cards line up in a row */
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.gallerycard {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.big {
+  color: rgb(157, 157, 157);
+}
+
+.galimg1 {
+  height: 500px;
+  width: 500px;
+  background: url(gallery1.jpg);
+  background-size: cover
+}
+
+.galimg2 {
+  height: 500px;
+  width: 500px;
+  background: url(gallery2.jpg);
+  background-size: cover
+}
+
+.galimg3 {
+  height: 500px;
+  width: 500px;
+  background: url(gallery3.jpg);
+  background-size: cover
+}
+
+.galimg4 {
+  height: 500px;
+  width: 500px;
+  background: url(gallery4.jpg);
+  background-size: cover
+}
+
+.galimg6 {
+  height: 500px;
+  width: 500px;
+  background: url(gallery6.png);
+  background-size: cover
+}
+
+.galimg7 {
+  height: 500px;
+  width: 500px;
+  background: url(pashalko.png);
+  background-size: cover
+}
+
+.secretgal a {
+  color: rgb(251, 251, 251);
+  text-decoration: none;
+
+}
+
+.place {
+  position: relative;
+  left: 93%;
+  bottom: 250px;
+}
+
+.ss25cards {
+  display: flex;
+  /* Makes the cards line up in a row */
+  justify-content: center;
+  /* Centers the cards horizontally */
+  gap: 3px;
+  /* Adds space between cards */
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next line if needed */
+}
+
+.ss25card {
+  background-color: rgb(40, 40, 40);
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex: 10px 10px 1px;
+}
+
+.ss25card a {
+  padding: 30px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 15px;
+  color: rgb(157, 157, 157);
+}
+
+.ss25card:hover {
+  background-color: rgb(22, 22, 22);
+}
+
+.img5 {
+  height: 255px;
+  width: 100%;
+  background: url(clothes_helluva_tshirt.png);
+  background-size: cover
+}
+
+.img6 {
+  height: 255px;
+  width: 100%;
+  background: url(clothes_helluva_skirt.png);
+  background-size: cover
+}
+
+.imgplaceholder {
+  height: 255px;
+  width: 100%;
+  background: url(placeholder.png);
+  background-size: cover
+}
+
+.fix {
+  color: rgb(157, 157, 157);
+}
+
+.description {
+  background-color: rgb(245, 245, 245);
+
+}
